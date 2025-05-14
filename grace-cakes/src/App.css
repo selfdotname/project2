@@ -154,20 +154,18 @@
 }
 .contact-us-section > h2 {
   text-align: center;
-  color: #fff;
   font-size: 2rem;
 }
 .contact-us-section {
-  background-color: blue;
   padding: 3rem 0;
 }
 .contact-us-form form > button {
   width: 100%;
   padding: 1rem 0;
   background-color: transparent;
-  border: 2px solid #fff;
+  border: 2px solid;
   border-radius: 2rem;
-  color: #fff;
+  color: blue;
   font-size: 1rem;
   font-weight: bold;
   margin-top: 2rem;
@@ -175,8 +173,8 @@
   transition: color 0.5s ease-in-out, background-color 0.75s ease-in-out;
 }
 .contact-us-form form > button:hover {
-  color: blue;
-  background-color: #fff;
+  color: #fff;
+  background-color: blue;
 }
 .field {
   display: flex;
@@ -184,7 +182,7 @@
   margin-bottom: 1rem;
 }
 .field input {
-  /* border: 1px solid #999; */
+  border: 1px solid #999;
   padding: 1rem;
   margin-bottom: 0.5rem;
   border-radius: 4px;
@@ -194,10 +192,9 @@
 .field label {
   margin-bottom: 0.5rem;
   font-size: 1.25rem;
-  color: #fff;
 }
 .field textarea {
-  /* border: 1px solid #999; */
+  border: 1px solid #999;
   min-height: 8rem;
   border-radius: 4px;
   resize: vertical;
