@@ -1,0 +1,212 @@
+:root {
+  --centered-width: 480px;
+}
+/* ---------------------- */
+.intro-section img {
+  width: 100%;
+  max-width: 768px;
+  height: var(--centered-width);
+  object-fit: cover;
+  object-position: 0 20%;
+}
+.intro-section > * {
+  text-align: center;
+}
+.intro-section h1 {
+  font-size: 3rem;
+  color: #fff;
+  margin-top: 3rem;
+}
+.intro-section h3 {
+  color: #ddd;
+  margin-top: 1rem;
+  mix-blend-mode: overlay;
+  font-family: "Quicksand";
+  font-size: 1.5rem;
+}
+.intro-section {
+  /* margin: 3rem 0; */
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.intro-section-position-wrapper {
+  height: 100dvh;
+  min-height: fit-content;
+  background-size: cover;
+  background-color: #555;
+  background-blend-mode: color-burn;
+  background-image: url(little-girl-holding-cake-smiling.jpg);
+}
+/* ---------------------- */
+.services-list ul {
+  max-width: var(--centered-width);
+  margin: 0 auto;
+}
+.services-list li {
+  margin: 2rem;
+  background-color: #fff;
+  box-shadow: 32px 32px 45px -24px #ddd;
+  border-radius: 4px;
+}
+.services-list li img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+.services-section > h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.services-section {
+  padding: 3rem 0;
+  background-image: url(golden-stars-bg2.png);
+  background-size: contain;
+  background-repeat: repeat;
+}
+.services-list h3,
+.services-list p {
+  text-align: center;
+}
+.services-list p {
+  margin: 0 1rem;
+  padding-bottom: 2rem;
+}
+.services-list h3 {
+  color: #555;
+  font-family: "Quicksand";
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+/* ---------------------- */
+.quote {
+  position: relative;
+  padding: 4rem;
+}
+.quote i {
+  font-size: 4rem;
+  position: absolute;
+  opacity: 0.25;
+}
+.quote i:nth-of-type(1) {
+  top: 0;
+  left: 0;
+}
+.quote i:nth-of-type(2) {
+  right: 0;
+  bottom: 0;
+}
+.quote-author {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.quote-author img {
+  max-width: 64px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.quote-author span {
+  font-weight: bold;
+}
+.quote-list li {
+  margin: 2rem;
+  padding: 1.5rem;
+  box-shadow: -45px 45px 32px -24px #eee;
+  background-color: #fff;
+}
+.quote-list {
+  max-width: 768px;
+  margin: 0 auto;
+}
+.quote-section > h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+.quote-section {
+  background-image: url(golden-stars-bg2.png);
+  padding: 3rem 0;
+  background-size: contain;
+}
+/* ---------------------- */
+.social-links-list ul {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.social-links-list i {
+  font-size: 32px;
+  color: initial;
+  transition: filter 0.5s ease-in-out;
+}
+.social-links-list {
+  padding: 3rem 0;
+}
+.social-links-section > h2 {
+  text-align: center;
+  padding-top: 3rem;
+}
+/* ---------------------- */
+.contact-us-form form {
+  max-width: var(--centered-width);
+  margin: 3rem auto;
+}
+.contact-us-section > h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+}
+.contact-us-section {
+  background-color: blue;
+  padding: 3rem 0;
+}
+.contact-us-form form > button {
+  width: 100%;
+  padding: 1rem 0;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 2rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: color 0.5s ease-in-out, background-color 0.75s ease-in-out;
+}
+.contact-us-form form > button:hover {
+  color: blue;
+  background-color: #fff;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.field input {
+  /* border: 1px solid #999; */
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.field label {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  color: #fff;
+}
+.field textarea {
+  /* border: 1px solid #999; */
+  min-height: 8rem;
+  border-radius: 4px;
+  resize: vertical;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+/* ---------------------- */
+footer p {
+  text-align: center;
+  font-weight: bold;
+}
