@@ -36,7 +36,7 @@
   background-size: cover;
   background-color: #555;
   background-blend-mode: color-burn;
-  background-image: url(little-girl-holding-cake-smiling.jpg);
+  background-image: url(/little-girl-holding-cake-smiling.jpg);
 }
 /* ---------------------- */
 .services-list ul {
@@ -61,7 +61,7 @@
 }
 .services-section {
   padding: 3rem 0;
-  background-image: url(golden-stars-bg2.png);
+  background-image: url(/golden-stars-bg2.png);
   background-size: contain;
   background-repeat: repeat;
 }
@@ -125,7 +125,7 @@
   font-size: 2rem;
 }
 .quote-section {
-  background-image: url(golden-stars-bg2.png);
+  background-image: url(/golden-stars-bg2.png);
   padding: 3rem 0;
   background-size: contain;
 }
